@@ -1,0 +1,5 @@
+print("----Trocando Valores----")
+a = int(input("Digite o valor de A:"))
+b = int(input("Digite o valor de B:"))
+print("Valor trocado de A:", a + b - a)
+print("Valor trocado de B:", b + a - b)
