@@ -1,0 +1,6 @@
+print("----Calculo da prestação----")
+v = float(input("digite o valor antes do atraso:"))
+t = float(input("Digite o valor da taxação:"))
+tempo = int(input("digite a quantidade de dias em atraso:"))
+prest = v + (v*(t/100)*tempo)
+print("O valor da prestação em atraso é: '%.2f'" %(prest))
